@@ -1,0 +1,61 @@
+{
+    "name": "react-movepicker",
+    "version": "16.12.0",
+    "description": "select element from list by mouse move inner container",
+    "main": "dist/movepicker.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fluse/react-movepicker.git"
+    },
+    "keywords": [
+        "react",
+        "react-component",
+        "reactjs",
+        "tab",
+        "browser tab",
+        "mouse move",
+        "picker",
+        "move picker",
+        "component",
+        "visbility change",
+        "tab visibile",
+        "visibility listener",
+        "tab inactive time"
+    ],
+    "author": "Holger D. Schauf",
+    "website": "https://github.com/fluse/",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/fluse/react-movepicker/issues"
+    },
+    "homepage": "https://fluse.github.io/react-movepicker/",
+    "scripts": {
+        "start": "webpack-dev-server --open --mode development",
+        "page": "webpack --mode production --output-path page",
+        "build": "babel src/movepicker.jsx --out-dir dist"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.7.4",
+        "@babel/core": "^7.7.4",
+        "@babel/plugin-proposal-class-properties": "^7.7.4",
+        "@babel/preset-env": "^7.7.4",
+        "@babel/preset-react": "^7.7.4",
+        "babel-loader": "^8.0.6",
+        "css-loader": "^3.2.0",
+        "gh-pages": "^2.1.1",
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^3.2.0",
+        "prop-types": "^15.7.2",
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0",
+        "style-loader": "^1.0.1",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.10",
+        "webpack-dev-server": "^3.9.0"
+    },
+    "peerDependencies": {
+        "react": "^15.0.1 || ^16.0.0",
+        "react-dom": "^15.0.1 || ^16.0.0",
+        "prop-types": "^15.7.2"
+    }
+}
