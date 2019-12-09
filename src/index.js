@@ -11,7 +11,7 @@ class App extends Component {
 
         this.state = {
             selectedColor: 0,
-            listOfColors: ['#efefef', '#afafaf', '#45fd21'],
+            listOfColors: ['#efefef', '#afafaf', '#45fd21','#efefef', '#afafaf', '#45fd21','#efefef', '#afafaf', '#45fd21','#efefef', '#afafaf', '#45fd21','#efefef', '#afafaf', '#45fd21','#efefef', '#afafaf', '#45fd21'],
             selectedImage: 0,
             listOfImages: ['']
         }
@@ -35,7 +35,11 @@ class App extends Component {
                 <a href="https://www.npmjs.com/package/react-movepicker" className="npm" target="_blank">NPM Package</a>
 
                 <p>{this.state.selectedColor}</p>
-                <Movepicker className="move-picker" onChange={this.setNewSelectedColor.bind(this)}>
+                
+                <Movepicker className="move-picker" list={this.state.listOfColors.length} onChange={this.setNewSelectedColor.bind(this)}>
+                    <ul>
+                        <li>test</li>
+                    </ul>
                 </Movepicker>
 
                 <br />

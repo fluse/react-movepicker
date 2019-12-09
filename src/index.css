@@ -41,10 +41,10 @@ a {
 
 .move-picker {
     display: block;
-    width: 100%;
-    height: 100%;
-    max-width: 600px;
+    width: 100vw;
+    height: 100vh;
+    max-width: 320px;
     max-height: 600px;
-    background-color: #efefef;
+    background-color: rgba(0, 0, 0, 0.1);
     margin: 0 auto;
 }
